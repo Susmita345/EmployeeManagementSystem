@@ -34,7 +34,7 @@ public class EmployeeController {
 	}
 	
 	//Build get employees REST API
-	@GetMapping
+	@GetMapping("/getAllEmployees")
 	public List<Employee> getAllEmployees(){
 		return employeeService.getAllEmployees();
 	}
