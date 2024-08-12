@@ -54,6 +54,11 @@ public class Employee {
 		this.lastName = lastName;
 		this.email = email;
 	}
+
+	//Default Constructor
+	public Employee() {
+		super();
+	}
 	
 
 }
